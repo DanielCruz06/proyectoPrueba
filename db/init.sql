@@ -1,3 +1,4 @@
+--sudo docker exec -it my_microservices_project-db-1 psql -U myappaks
 -- Crear usuario para todas las bases de datos
 CREATE USER myappaks WITH ENCRYPTED PASSWORD 'josecruz06';
 
